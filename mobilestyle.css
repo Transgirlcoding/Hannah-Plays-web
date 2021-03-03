@@ -14,10 +14,10 @@ body {
   
   .topnav {
     overflow: hidden;
-    background: rgb(35,12,51);
-background: linear-gradient(90deg, rgba(35,12,51,1) 0%, rgba(136,52,157,1) 100%);
+   background: rgb(227,140,216);
+background: linear-gradient(90deg, rgba(227,140,216,1) 0%, rgba(181,220,231,1) 100%);
     position: relative;
-    color: white;
+    color: black;
   }
   
   .topnav #myLinks {
