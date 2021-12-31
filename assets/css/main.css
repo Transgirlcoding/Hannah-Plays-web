@@ -292,7 +292,7 @@ nav ul li a {
     padding-top: 0.05em;
     padding-right: auto;
   }
-  .link_text{
+  a.link_text{
     color: #fff;
   }
   .blog_welcome_text {
