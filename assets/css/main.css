@@ -293,7 +293,8 @@ nav ul li a {
     padding-right: auto;
   }
   a.link_text{
-    color: #fff;
+    color: white;
+    
   }
   .blog_welcome_text {
     text-align: center;
