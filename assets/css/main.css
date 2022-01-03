@@ -56,12 +56,14 @@ nav ul li {
 nav ul li:hover {
   opacity: 0.7;
   background-color: #F8E3EC;
+  color: black;
   text-align: center;
 }
 
 nav ul li.active {
   opacity: 1;
   background-color: #F8E3EC;
+  color: black;
   padding: 0.7em;
 }
 
@@ -292,10 +294,6 @@ nav ul li a {
     padding-top: 0.05em;
     padding-right: auto;
   }
-  a.link_text{
-    color: white;
-    
-  }
   .blog_welcome_text {
     text-align: center;
     padding-bottom: 1em;
@@ -357,14 +355,14 @@ nav ul li a {
   /* Add a grey background color on mouse-over */
   .topnav a:hover {
     background-color: #F8E3EC;
-    color: white;
+    color: black;
     z-index: 100;
   }
 
   /* Style the active link (or home/logo) */
   .active {
     background-color: #F8E3EC;
-    color: white;
+    color: black;
   }
 }
 .about_text {
@@ -584,7 +582,7 @@ nav ul li a {
 .projects_button:hover {
   cursor: pointer;
   background-color: #F8E3EC;
-  color: white;
+  color: black;
   box-shadow: 0 9px 16px 0 rgba(0, 0, 0, 0.24),
     0 10px 20px 0 rgba(0, 0, 0, 0.19);
 }
