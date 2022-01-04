@@ -596,9 +596,16 @@ footer h1 {
 }
 
 
-.video{
+.video {
   display: block; 
   margin: auto; 
   max-width: 95%;
 
+}
+.head_text_video {
+  margin: 0.1em 1em;
+  text-decoration: underline;
+  display: block; 
+  margin: auto; 
+  padding-bottom: 0.3em;
 }
