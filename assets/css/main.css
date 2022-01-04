@@ -607,5 +607,6 @@ footer h1 {
   text-decoration: underline;
   display: block; 
   margin: auto; 
+  align-items: center;
   padding-bottom: 0.3em;
 }
