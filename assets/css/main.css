@@ -601,7 +601,6 @@ footer h1 {
   position: relative;
   align-content: center;
   align-items: center;
-  
-  max-width: 100%;
+  max-width: 90%;
 
 }
