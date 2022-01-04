@@ -53,14 +53,14 @@ nav ul li {
   text-align: center;
 }
 
-nav ul li a:hover {
+nav ul li :hover {
   opacity: 0.7;
   background-color: #F8E3EC;
   color: black;
   text-align: center;
 }
 
-nav ul li a.active {
+nav ul li .active {
   opacity: 1;
   background-color: #F8E3EC;
   color: black;
@@ -73,7 +73,7 @@ nav ul li:last-child {
 
 nav ul li a {
   text-decoration: none;
-  color: white;
+  color: black;
   text-transform: uppercase;
   display: block;
   font-weight: 700;
@@ -94,15 +94,7 @@ nav ul li a {
   top: 0.7em;
 }
 
-nav ul li a {
-  text-decoration: none;
-  color: white;
-  text-transform: uppercase;
-  display: block;
-  font-weight: 700;
-  letter-spacing: 0.2em;
-  font-size: 14px;
-}
+
 
 .blog_type_h1 {
   display: grid;
@@ -147,11 +139,7 @@ nav ul li a {
   text-decoration: underline;
   padding-bottom: 0.3em;
 }
-.head_text_friends {
-  text-decoration: underline;
-  text-align: center;
-  padding-bottom: 0.3em;
-}
+
 /* Style navigation menu links */
 .topnav a {
   color: white;
@@ -381,12 +369,7 @@ nav ul li a {
   font-size: 1.3em;
   padding-bottom: 2em;
 }
-.work_ex_about_text_p {
-  margin-left: 2em;
-  font-size: 1.3em;
-  padding-bottom: 2em;
-  font-weight: 300;
-}
+
 
 .blog_text_p {
   margin: 0.2em 2em;
@@ -407,120 +390,7 @@ nav ul li a {
   color: rgb(226, 111, 241);
 }
 
-/* friends avatar */
-.firends-list {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-.friend-container_pink {
-  margin: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-.friend-container_blue {
-  margin: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-.friend-container_pink:hover > .friend-avatar_pink {
-  box-shadow: 0px 5px 15px 0 rgb(238, 130, 202);
-}
-.friend-name_pink {
-  color: #fff;
-  font-weight: bold;
-  font-size: 20px;
-  text-decoration-color: rgb(238, 130, 202);
-}
-.friend-container_pink:hover > .friend-name_pink {
-  text-decoration: underline;
-  color: rgb(238, 130, 202);
-}
-.friend-avatar_pink {
-  border-radius: 9999px;
-  width: 140px;
-  height: 140px;
-}
-.friend-name_blue {
-  color: #fff;
-  font-weight: bold;
-  font-size: 20px;
-  text-decoration-color: rgb(130, 204, 238);
-}
-.friend-container_blue:hover > .friend-name_blue {
-  text-decoration: underline;
-  color: rgb(130, 204, 238);
-}
-.friend-container_blue:hover > .friend-avatar_blue {
-  box-shadow: 0px 5px 15px 0 rgb(130, 204, 238);
-}
-.friend-avatar_blue {
-  border-radius: 9999px;
-  width: 140px;
-  height: 140px;
-}
 
-@media only screen and (max-width: 1500px) {
-  .firends-list {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-  .friend-container_pink {
-    margin: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  }
-  .friend-container_blue {
-    margin: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  }
-  .friend-container:hover > .friend-avatar_pink {
-    box-shadow: 0px 5px 15px 0 rgb(238, 130, 202);
-  }
-  .friend-name_pink {
-    color: #fff;
-    font-weight: bold;
-    font-size: 20px;
-    text-decoration-color: rgb(238, 130, 202);
-  }
-  .friend-container:hover > .friend-name_pink {
-    text-decoration: underline;
-    color: rgb(238, 130, 202);
-  }
-  .friend-avatar_pink {
-    border-radius: 9999px;
-    width: 140px;
-    height: 140px;
-  }
-  .friend-name_blue {
-    color: #fff;
-    font-weight: bold;
-    font-size: 20px;
-    text-decoration-color: rgb(238, 130, 202);
-  }
-  .friend-container:hover > .friend-name_blue {
-    text-decoration: underline;
-    color: rgb(238, 130, 202);
-  }
-  .friend-container:hover > .friend-avatar_blue {
-    box-shadow: 0px 5px 15px 0 rgb(238, 130, 202);
-  }
-  .friend-avatar_blue {
-    border-radius: 9999px;
-    width: 140px;
-    height: 140px;
-  }
-}
 
 /* 404 page text*/
 .type_h1_404 {
@@ -549,19 +419,9 @@ nav ul li a {
   padding-right: auto;
 }
 
-                                         /*----------project code----------*/
-.card-display {
-  display: flex;
-}
-.card {
-  padding: 2em 1em;
-  margin: 2em;
-  border: 1px solid;
-  width: 199em;
-  font-size: 0.6em;
-  text-align: center;
-}
-.projects_button {
+                                         /*----------button code----------*/
+
+.link_button {
   background-color: #333;
   border: 0.2em;
   color: white;
@@ -579,7 +439,7 @@ nav ul li a {
 
   border-radius: 5px;
 }
-.projects_button:hover {
+.link_button:hover {
   cursor: pointer;
   background-color: #F8E3EC;
   color: black;
@@ -587,135 +447,7 @@ nav ul li a {
     0 10px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-@media only screen and (max-width: 700px) {
-  /* project code  files */
-  .card-display {
-    display: block;
-  }
-  .card {
-    padding: 2em 1em;
-    margin: 2em;
-    border: 1px solid;
-    width: auto;
-    font-size: 0.6em;
-    text-align: center;
-  }
-}
 
-                                         /*----------friends avatar----------*/
-.firends-list {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-.friend-container_pink {
-  margin: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-.friend-container_blue {
-  margin: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-.friend-container_pink:hover > .friend-avatar_pink {
-  box-shadow: 0px 5px 15px 0 rgb(238, 130, 202);
-}
-.friend-name_pink {
-  color: #fff;
-  font-weight: bold;
-  font-size: 20px;
-  text-decoration-color: rgb(238, 130, 202);
-}
-.friend-container_pink:hover > .friend-name_pink {
-  text-decoration: underline;
-  color: rgb(238, 130, 202);
-}
-.friend-avatar_pink {
-  border-radius: 9999px;
-  width: 140px;
-  height: 140px;
-}
-.friend-name_blue {
-  color: #fff;
-  font-weight: bold;
-  font-size: 20px;
-  text-decoration-color: rgb(130, 204, 238);
-}
-.friend-container_blue:hover > .friend-name_blue {
-  text-decoration: underline;
-  color: rgb(130, 204, 238);
-}
-.friend-container_blue:hover > .friend-avatar_blue {
-  box-shadow: 0px 5px 15px 0 rgb(130, 204, 238);
-}
-.friend-avatar_blue {
-  border-radius: 9999px;
-  width: 140px;
-  height: 140px;
-}
-
-@media only screen and (max-width: 1500px) {
-  .firends-list {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-  .friend-container_pink {
-    margin: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  }
-  .friend-container_blue {
-    margin: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  }
-  .friend-container:hover > .friend-avatar_pink {
-    box-shadow: 0px 5px 15px 0 rgb(238, 130, 202);
-  }
-  .friend-name_pink {
-    color: #fff;
-    font-weight: bold;
-    font-size: 20px;
-    text-decoration-color: rgb(238, 130, 202);
-  }
-  .friend-container:hover > .friend-name_pink {
-    text-decoration: underline;
-    color: rgb(238, 130, 202);
-  }
-  .friend-avatar_pink {
-    border-radius: 9999px;
-    width: 140px;
-    height: 140px;
-  }
-  .friend-name_blue {
-    color: #fff;
-    font-weight: bold;
-    font-size: 20px;
-    text-decoration-color: rgb(238, 130, 202);
-  }
-  .friend-container:hover > .friend-name_blue {
-    text-decoration: underline;
-    color: rgb(238, 130, 202);
-  }
-  .friend-container:hover > .friend-avatar_blue {
-    box-shadow: 0px 5px 15px 0 rgb(238, 130, 202);
-  }
-  .friend-avatar_blue {
-    border-radius: 9999px;
-    width: 140px;
-    height: 140px;
-  }
-}
 
                                          /*----------custom scrollbar----------*/                     
 
