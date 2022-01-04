@@ -598,8 +598,8 @@ footer h1 {
 
 .video{
   position: relative;
-  align-content: center;
-  align-items: center;
+  display: flex; 
+  justify-content: center;
   max-width: 95%;
   margin-left: .5em;
 
