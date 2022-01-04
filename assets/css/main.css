@@ -463,12 +463,12 @@ nav ul li a {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #be18ff79;
+  background: #F8E3EC;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #be18ff;
+  background: #FFEBBE;
 }
 
 
