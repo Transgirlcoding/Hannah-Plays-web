@@ -480,6 +480,13 @@ nav .hamburger div {
   margin: 0 auto;
   width: 50%;
 }
+@media screen and (max-width: 800px) {
+  .wrapper {
+    width: 90%;
+    margin-bottom: 1em;
+    margin-left: 2.5em;
+  }
+}
 
 .videowrapper {
   position: relative;
@@ -621,6 +628,7 @@ footer .footer_logo img {
     margin: auto;
     align-items: center;
     padding: 0%;
+    margin-top: 20px;
   }
 }
 
